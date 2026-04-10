@@ -1,0 +1,5 @@
+improt.java.util.Scanner;
+//for userinput
+public class PrimeNumberCheck(){
+    if(n<=1){}
+}
