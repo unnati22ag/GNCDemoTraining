@@ -1,4 +1,4 @@
-improt.java.util.Scanner;
+importt.java.util.Scanner;
 //for userinput
 public class PrimeNumberCheck(){
     if(n<=1){}
