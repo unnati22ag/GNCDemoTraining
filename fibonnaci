@@ -1,17 +1,15 @@
-import java.util*
-public class fibonnaci{
-    public static void main(String[] args){
-        int count=10,num1=0,num=2;
-        System.out.println ("fibonnaci Series of "+count num+"");
-        int i= 1;
-        while (i<=count){
-             System.out.println (num1+"");
+import java.util.Scanner;
+
+class Factorial{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int n = sc.nextInt();
+        int fact = 1;
+        for(int i=1; i<=n; i++){
+            fact *= i;
         }
-        //logic:calculate next term and swap.
-        int sumOFPreTwo =num1+num2;
-num1=num2;
-num2=sumOfPreTwo;
-i++;
+        System.out.println(fact);
+        sc.close();
     }
-}
 }
